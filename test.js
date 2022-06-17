@@ -1,10 +1,10 @@
 const even = () => {
-  let evenNumArr = [];
+  let evenArr = [];
   for (let i = 1; i <= 50; i++) {
     if (i % 2 === 0) {
-      evenNumArr.push(i);
+      evenArr.push(i);
     }
   }
-  return [evenNumArr];
+  return [evenArr];
 };
 even();
